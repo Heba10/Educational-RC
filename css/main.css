@@ -1,0 +1,55 @@
+     @font-face {
+     src: url("/fonts/SassoonInfantStd.otf");
+    }
+    .Blue {
+    background-color: #0fa0c5;
+    top: 14px;
+    height: 714px;
+    }
+
+    .Content {
+    background-color: #FFF;
+    border: 5px solid #f5821f;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    width: 96%;
+    left: 25px;
+    height: 730px;
+    }
+     
+
+    .template {
+    height: 100%;
+    font-size: 50px;
+}
+
+.template .itemContainer {
+    margin-top: 40px;
+}
+
+
+.template .option {
+    display: inline-block;
+    margin: 0px 15px 15px 0px;
+    padding: 0px 20px 8px 20px;
+    border: 3px solid #0fa0c5;
+    border-radius: 20px;
+    border-image: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.button {
+    display: inline-block;
+    width: 7%;
+    margin: 2.5% 52% 1% 1%;
+    cursor: pointer;
+}
+
+.footer {
+    background: #deecf6;
+    align-items: center;
+    overflow: hidden;
+} 
