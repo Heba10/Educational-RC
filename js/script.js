@@ -3,8 +3,11 @@ $(window).on('load', () => {
     $("#load").fadeOut("slow");
     //picked item 
     $(".item").click(function () { $(this).toggleClass('picked').siblings().removeClass("picked");});
-
-
+//reload button
+  $(".reload").click(() => {
+        $(".o").css("visibility", "visible").removeClass("picked");
+        $(".option").empty();
+    });
 
 
 
@@ -41,5 +44,10 @@ $(window).on('load', () => {
         }
     });
 
+
+
+  
+
+   
 
 });
