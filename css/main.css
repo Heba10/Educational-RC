@@ -5,14 +5,138 @@
     height: 100%;
     z-index: 9999;
     background-color: rgb(0, 153, 253);  
-}  
+} 
+
 #container {
     position: absolute;
     left: 0px;
     top: 0px;
     right: 0px;
     bottom: 0px;
+}
 
+
+.header {
+    height: 124px;
+}
+
+.resourse {
+    cursor: pointer;
+}
+.help{
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #0fa0c5;
+    left: 0;
+    top: 13px;
+    height: 713px;
+}
+
+.pageContent {
+    background-color: #FFF;
+    border: 5px solid #f5821f;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    width: 96%;
+    left: 25px;
+    height: 730px;
+}
+
+.template {
+    height: 100%;
+    font-size: 50px;
+}
+
+.template .itemContainer {
+    margin-top: 40px;
+    
+}
+
+.template .itemContainer .itemContainer {
+    text-align: center;
+}
+
+.template .itemContainer .item {
+    display: inline-block;
+    margin: 0px 15px 15px 0px;
+    padding: 0px 20px 8px 20px;
+    border: 3px solid #0fa0c5;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.itemContainer img {
+    border-radius: 20px;
+}
+
+.itemContainer .mainImage img {
+    border-radius: 20px;
+    height: 430px;
+}
+
+.template .itemContainer .option {
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 50px;
+    position: absolute;
+    text-align: left;
+    width: 355px;
+    height: 77px;
+}
+
+.template .itemContainer .col-sm-12 {
+    position: absolute;
+    top: 0;
+}
+
+.template .itemContainer .option_1 {
+    top: 527px;
+    left: 15px;
+}
+
+.template .itemContainer .option_2 {
+    top: 612px;
+    left: 15px;
+}
+
+.template .itemContainer .option_3 {
+    top: 612px;
+    left: 435px;
+}
+
+.template .itemContainer .option_4 {
+    top: 527px;
+    left: 860px;
+}
+
+.template .itemContainer .option_5 {
+    top: 612px;
+    left: 860px;
+}
+
+.picked {
+    color: #FFF;
+    background-color: #0fa0c5;
+    
+}
+
+.filled {
+    cursor: default !important;
+}
+
+.Mark {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+    background: #deecf6;
+    align-items: center;
+    overflow: hidden;
 }
 
 .button {
@@ -22,8 +146,3 @@
     cursor: pointer;
 }
 
-.footer {
-    background: #deecf6;
-    align-items: center;
-    overflow: hidden;
-} 
